@@ -1,0 +1,7 @@
+:root{--bg:#0e1014;--panel:#161920;--txt:#e9ebf0;--mut:#9aa3b2;--acc:#ffd42a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 "Segoe UI",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:48px 20px 80px}
+a{color:var(--acc)}h1{font-size:30px;margin:0 0 6px}h2{font-size:19px;margin:32px 0 8px}
+.mut{color:var(--mut)}.brand{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.logo{width:42px;height:42px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font-weight:800;color:#1a1500}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid #272c37;color:var(--mut);font-size:14px}
